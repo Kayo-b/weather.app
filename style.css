@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+}
+
+html {
+    padding: 0px;
+    margin:10px
+}
+
+body {
+    margin: auto;
+    background-color: #4e4e4e81;
+}
+#main-container {
+    padding: 3px;
+    display: flex;
+    align-items: center;
+}
+header {
+    line-height: 1.4;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+#Titles {
+    display: block;
+}
+
+#title {
+    margin-right: 10px
+}
+.titles, .values {
+    display: inline-block;
+}
+
+#searchElem {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#subTitle {
+    font-size: x-small;
+    position:relative;
+    top: -5px;
+    left: 22px;
+    
+}
+
+#search {
+    padding: 2px; 
+    font-size: 1.3em;
+    inline-size: 160px;
+    line-height: 20px;
+    border-color: rgb(95, 72, 117);
+    border:none;
+}
+
+#searchButton {
+    background: url(search-svgrepo-com.svg) 0 0 no-repeat;
+    text-indent: -99999px; 
+    width: 30px; 
+    height: 30px; 
+    display: block;
+    transform: scale(77%);
+    position: relative;
+    left:-30px;
+    
+
+}
+
+#searchButton:hover {
+    transform: scale(85%);
+    cursor: pointer;
+}
