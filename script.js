@@ -54,7 +54,6 @@ class Weather {
         elemMin.innerText = object.temp_min + `°C`;
         elemMax.innerText = object.temp_max + `°C`;
         elemHumid.innerText = object.humidity + `RH`;
-        console.log(object)
     }
 }
 
