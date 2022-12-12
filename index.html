@@ -10,9 +10,11 @@
 </head>
 <body>
     <div id="main-container">
+        <div id="second-main-container">
         <header>
             <div id="Titles">
                 <h2 id="title">weather.app</h2>
+                <p id="sun"></p>
             <p id="subTitle">Check out the weather.</p>
             </div>
             <div id="searchContainer">
@@ -25,20 +27,51 @@
             
             
         </header>
+    </div>
         <div id="sub-container1">
+            <div id="sub-container2">
             <div id="content-result">
-                <h3 class="titles"></h3>
-         <span id="local"></span><div id="name" class="values"></div>
-                <h3 class="titles">Temperature: </h3>
-         <div id="temp" class="values"></div>
-                <h3 class="titles">Feels Like: </h3>
-         <div id="tempFeel" class="values"></div>
-                <h3 class="titles">Minimum: </h3>
-         <div id="minTemp" class="values"></div>
-                <h3 class="titles">Maximum: </h3>
-         <div id="maxTemp" class="values"></div>
+                <div class="subBlocks">
+                    <h3 class="titles"></h3>
+                    <span id="localSvg"></span>
+                    <div id="name" class="values"></div>
+                </div>
+                <div class="subBlocks">
+                    <span id="tempSvg"></span>
+                    <h3 class="titles"></h3>
+                    <div id="temp" class="values"></div>
+                </div>
+                <div class="subBlocks">   
+                    <span id="feelSvg"></span>
+                    <h3 class="titles"></h3>
+                    <div id="tempFeel" class="values"></div>
+                </div>
+                <div class="subBlocks">
+                    <span id="minSvg"></span>
+                    <h3 class="titles"></h3>
+                    <div id="minTemp" class="values"></div>
+                </div>
+                <div class="subBlocks">
+                    <span id="maxSvg"></span>
+                    <h3 class="titles"></h3>
+                    <div id="maxTemp" class="values"></div>
+                </div>
+                <div class="subBlocks">
+                    <span id="humidSvg"></span>
+                    <h3 class="titles"></h3>
+                    <div id="humid" class="values"></div>
+                </div>
+                
+
             </div>
+                <div id="weather-container">
+                    <img id="weather">
+                    <h3 id="weatherTitle"></h3>
+                </div>
+            </div>
+
         </div>
+
     </div>
 </body>
 </html>

@@ -35,16 +35,26 @@ class Weather {
 
     //display content
     displayData(object) {
-        let elemName = document.getElementById("name")
-        let elemTemp = document.getElementById("temp")
-        let elemTempFeel = document.getElementById("tempFeel")
-        let elemMin = document.getElementById("minTemp")
-        let elemMax = document.getElementById("maxTemp")
-        elemName.innerText = object.name
-        elemTemp.innerText = object.temp
-        elemTempFeel.innerText = object.feels_like
-        elemMin.innerText = object.temp_min
-        elemMax.innerText = object.temp_max
+        let elemName = document.getElementById("name");
+        let elemTemp = document.getElementById("temp");
+        let elemTempFeel = document.getElementById("tempFeel");
+        let elemMin = document.getElementById("minTemp");
+        let elemMax = document.getElementById("maxTemp");
+        let elemHumid = document.getElementById("humid");
+        let contentResult = document.getElementById("content-result");
+        let weatherResult = document.getElementById("weatherTitle");
+        let weatherIcon = document.getElementById("weather")
+        contentResult.style.display = "flex"
+        weatherResult.innerText = object.description
+        weatherIcon.src = `http://openweathermap.org/img/wn/${object.icon}@2x.png`
+        console.log(weatherIcon)
+        elemName.innerText = object.name;
+        elemTemp.innerText = object.temp + `°C`;
+        elemTempFeel.innerText = object.feels_like + `°C`;
+        elemMin.innerText = object.temp_min + `°C`;
+        elemMax.innerText = object.temp_max + `°C`;
+        elemHumid.innerText = object.humidity + `RH`;
+        console.log(object)
     }
 }
 
