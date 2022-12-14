@@ -30,9 +30,7 @@
         flex-wrap: wrap;
         align-items: flex-start;
         width:90%;
-        /* position: relative;
-        right: 45px; */
-        
+
     }
     .titles, .values {
         display: inline-block;
@@ -47,7 +45,6 @@
     }
 
 }
-
 
 * {
     margin: 0px;
@@ -79,11 +76,6 @@ body {
     flex-wrap: nowrap;
 }
 
-/* #second-main-container {
-    display: block;
-    justify-content: flex-start;
-    width: 100%
-} */
 header {
     line-height: 1.4;
     display: flex;
@@ -243,7 +235,6 @@ header {
     display: flex;
     width: 100%;
     justify-content: space-around;
-    /* align-items: center; */
     flex-wrap: nowrap;
     
 }
