@@ -1,10 +1,10 @@
 # weather.app
 
-## Weather wep application using the API provided by [OpenWeather](https://openweathermap.org/).
+## Weather web application using the API provided by [OpenWeather](https://openweathermap.org/).
 
 ### Features: 
-    - Search by city;
-    - App retrieves the searched city weather information provided by the API.
+- Search by city;
+- App retrieves the searched city weather information provided by the API.
     
 ### Technical Notes:
 
