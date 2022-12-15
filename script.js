@@ -14,7 +14,7 @@ class Weather {
             }
             this.selectDataFromJson(returnJson)
         } catch (error) {
-            console.log(error);
+            alert(error);
         }
     }
 
@@ -47,7 +47,6 @@ class Weather {
         contentResult.style.display = "flex"
         weatherResult.innerText = object.description
         weatherIcon.src = `http://openweathermap.org/img/wn/${object.icon}@2x.png`
-        console.log(weatherIcon)
         elemName.innerText = object.name;
         elemTemp.innerText = object.temp + `°C`;
         elemTempFeel.innerText = object.feels_like + `°C`;
