@@ -1,6 +1,6 @@
 # weather.app
 
-## Weather wep application using the API provided by ![OpenWeather](https://openweathermap.org/).
+## Weather wep application using the API provided by [OpenWeather](https://openweathermap.org/).
 
 ### Features: 
     - Search by city;
