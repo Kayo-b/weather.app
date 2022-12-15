@@ -12,4 +12,4 @@ This was a simple implementation with the core purpose of using the async capabi
 
 https://kayo-b.github.io/weather.app/
 
-![weather](weather.gif)
+![weather](weather2.gif)
